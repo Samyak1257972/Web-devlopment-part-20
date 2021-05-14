@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors</title>
+    <style>
+        input[type='text'] {
+            border: 2px solid red;
+            width: 200px;
+            height: 70px;
+        }
+        
+        input[type='password'] {
+            border: 2px solid rgb(54, 42, 209);
+            width: 500px;
+            height: 100px;
+        }
+        /* li:nth-child(2) {
+            color: burlywood;
+        } */
+        /* li:nth-child(2n+0){
+            color: rgb(43, 255, 0);
+        } */
+        /* li:nth-child(even) {
+            color: blue;
+        } */
+        
+        li:nth-child(odd) {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Pseudo selectors</h3>
+    <form action="" class="form">
+        <input type="text" placeholder="Name">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Submit">
+    </form>
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+</body>
+
+</html>
